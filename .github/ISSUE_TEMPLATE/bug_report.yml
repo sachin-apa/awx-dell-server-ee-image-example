@@ -20,7 +20,7 @@ body:
     attributes:
       label: Component or Module Name
       description: Enter the Component or Module Name.
-    placeholder: |
+      placeholder: |
         idrac_server_config_profile
         ome_user
     validations:

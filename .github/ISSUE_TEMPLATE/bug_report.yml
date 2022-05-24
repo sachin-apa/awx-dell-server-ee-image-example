@@ -20,9 +20,7 @@ body:
     attributes:
       label: Component or Module Name
       description: Enter the Component or Module Name.
-      placeholder: |
-        idrac_server_config_profile
-        ome_user
+      placeholder: idrac_server_config_profile
     validations:
       required: true
   - type: input
@@ -40,11 +38,10 @@ body:
       label: Python Version
       description: Enter the Python version.
       placeholder: |
-        Python 3.8
         Python 3.9
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: device
     attributes:
       label: iDRAC/OME/OME-M version
@@ -55,7 +52,7 @@ body:
         OME-M 1.40
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: os
     attributes:
       label: Operating System

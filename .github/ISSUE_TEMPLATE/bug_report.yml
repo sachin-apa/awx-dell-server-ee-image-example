@@ -20,7 +20,7 @@ body:
     attributes:
       label: Component or Module Name
       description: Enter the Component or Module Name.
-    placeholder:
+    placeholder: |
         idrac_server_config_profile
         ome_user
     validations:
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Ansible Version
       description: Enter the Ansible version.
-      placeholder:
+      placeholder: |
         Ansible 2.12
     validations:
       required: true
@@ -39,7 +39,7 @@ body:
     attributes:
       label: Python Version
       description: Enter the Python version.
-      placeholder:
+      placeholder: |
         Python 3.8
         Python 3.9
     validations:
@@ -49,7 +49,7 @@ body:
     attributes:
       label: iDRAC/OME/OME-M version
       description: Enter the iDRAC/OME/OME-M version in which the bug is observed.
-      placeholder:
+      placeholder: |
         iDRAC 5.10.00.00
         OME 3.8.4
         OME-M 1.40
@@ -60,7 +60,7 @@ body:
     attributes:
       label: Operating System
       description: Enter the operating system and version in which the bug is observed.
-      placeholder:
+      placeholder: |
         Red Hat Enterprise Linux (RHEL) 8.5 and 8.4
         SUSE Linux Enterprise Server (SLES) 15 SP2 and 15 SP1
         Ubuntu 20.04.2 and 20.04.1
